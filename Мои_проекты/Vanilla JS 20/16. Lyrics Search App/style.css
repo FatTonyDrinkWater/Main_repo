@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+button {
+    cursor: pointer;
+
+}
+
+button:active {
+    transform: scale(0.95)
+}
+
+button:focus,
+input:focus {
+    outline: none;
+}

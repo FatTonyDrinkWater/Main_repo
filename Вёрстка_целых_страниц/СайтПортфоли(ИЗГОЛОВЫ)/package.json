@@ -1,0 +1,14 @@
+{
+  "name": "cyberfolio",
+  "version": "1.0.0",
+  "description": "My portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

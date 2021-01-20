@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Подсчет коммуналки</title>
+  <script src="v1.js" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <h1>Подсчет коммуналки</h1>
+    <button id="start">START</button>
+  </header>
+  <div class="main">
+    <div class="card-input" id="user-input">
+      <div class="wrapper">
+        <label for="gasnow">Введите настоящие показания газового счётчика</label>
+        <input type="number" id="gasnow" value="552">
+        <label for="energyNow">Введите настоящие показания электрического счётчика</label>
+        <input type="number" id="energyNow" value="13944">
+        <label for="coldWaterNow">Введите настоящие показания счётчика холодной воды</label>
+        <input type="number" id="coldWaterNow" value="655">
+        <label for="hotWaterNow">Введите настоящие показания счётчика горячей воды</label>
+        <input type="number" id="hotWaterNow" value="569">
+        <label for="garbageCosts">Введите расходы на вывоз мусора</label>
+        <input type="number" id="garbageCosts" value="81.43">
+        <label for="repair">Введите расходы на капитальный ремонт</label>
+        <input type="number" id="repair" value="231">
+      </div>
+      <div class="wrapper">
+        <label for="gaslast">Введите прошлые показания газового счётчика</label>
+        <input type="number" id="gaslast" value="545">
+        <label for="energyLast">Введите прошлые показания электрического счётчика</label>
+        <input type="number" id="energyLast" value="13895">
+        <label for="coldWaterLast">Введите прошлые показания счётчика холодной воды</label>
+        <input type="number" id="coldWaterLast" value="650">
+        <label for="hotWaterLast">Введите прошлые показания счётчика горячей воды</label>
+        <input type="number" id="hotWaterLast" value="565">
+        <label for="zkh">Введите расходы на ЖКХ</label>
+        <input type="number" id="zkh" value="0">
+        <label for="heating">Введите расходы на отопление</label>
+        <input type="number" id="heating" value="0">
+      </div>
+    </div>
+    <div class="card-result" id="result">
+
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@700&display=swap");
+/* font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif; */
+
+body {
+  margin: 0;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  /* padding: 14px; */
+}
+
+.header__contacts {
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: grey;
+}
+
+.header__nav {
+  height: 80px;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #969696;
+  text-decoration: none;
+  align-items: center;
+  padding: 31px 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 1s;
+}
+
+.link.active {
+  color: white;
+  background: #1f1f1f;
+}
+
+.adress {
+  font-size: 12px;
+  line-height: 16px;
+  color: grey;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 54px;
+  color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+/* INTRO */
+
+.intro {
+  height: 810px;
+  padding: 160px 800px;
+  background: url("/img/Rectangle\ 3.jpg") center no-repeat;
+}

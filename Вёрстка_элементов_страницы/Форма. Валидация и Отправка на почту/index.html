@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Стилизация и отправка формы</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form">
+        <form class="form__body" action="#" id="form">
+          <h1 class="form__title">Отправка данных на почту</h1>
+          <div class="form__item">
+            <label for="formName" class="form__label">Имя*</label>
+            <input id="formName" name="name" type="text" class='form__input'>Имя*</input>
+          </div>
+          <div class="form__item">
+            <label for="formEmail" class="form__label">Email*</label>
+            <input id="formEmail" name="email" type="text" class='form__input'>Имя*</input>
+          </div>
+          <div class="form__item">
+              <div class="form__title">Левша или правша</div>
+              <div class="options">
+                  <div class="options__item">
+                      <input id="formRightHanded" type="radio" name="hand" class="options__input">
+                      <label for="formRightHanded" class="options__label">Правша</label>
+                  </div>
+              </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

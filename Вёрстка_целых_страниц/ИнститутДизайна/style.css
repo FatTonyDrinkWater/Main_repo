@@ -1,0 +1,50 @@
+@import"styleNull.css";
+
+body {
+    background-color: green;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.header-title {
+    padding: 0 15px;
+    background: linear-gradient(to right, #7ed876, #13700e);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-title__title {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header-nav {
+    border: 1px solid black;
+    padding: 10px 10px 0 10px
+}
+
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    color: black;
+    font-size: 25px;
+    margin-left: 20px;
+    text-decoration: none;
+}

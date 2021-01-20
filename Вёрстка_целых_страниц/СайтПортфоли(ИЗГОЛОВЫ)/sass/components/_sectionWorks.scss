@@ -1,0 +1,37 @@
+.work {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        justify-content: center;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__item {
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    &__img {
+        height: 20rem;
+        width: 20rem;
+        border-radius: 2rem;
+    }
+
+    &__about {
+        position: absolute;
+        left: 1rem;
+        bottom: 10rem;
+        width: 100%;
+        color: white;
+    }
+}
