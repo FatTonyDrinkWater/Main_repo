@@ -81,8 +81,7 @@ body {
   height: 7rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  margin: 0 1.5rem 0 1.5rem; }
+  align-items: center; }
   .nav__logo {
     font-size: 4rem;
     font-weight: bold; }
@@ -97,6 +96,8 @@ body {
     font-weight: 700;
     color: black;
     font-size: medium; }
+    .nav__link:hover {
+      color: white; }
 
 .work {
   display: flex;
@@ -125,10 +126,6 @@ body {
     width: 100%;
     color: white; }
 
-.description {
-  display: flex;
-  justify-content: space-between; }
-
 .intro {
   background: url(/img/cheng-feng-j7AMlh2MMHc-unsplash.jpg);
   background-repeat: no-repeat;
@@ -152,6 +149,17 @@ body {
 
 .textBlue {
   color: blue; }
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  color: red; }
+  .description__text {
+    font-size: 2rem;
+    color: black; }
+
+.left {
+  margin-left: 40px; }
 
 .wrapper {
   max-width: 1100px;

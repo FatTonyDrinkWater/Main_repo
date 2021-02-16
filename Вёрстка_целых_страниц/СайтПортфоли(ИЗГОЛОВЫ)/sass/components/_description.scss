@@ -1,4 +1,14 @@
 .description {
     display: flex;
     justify-content: space-between;
+    color: red;
+
+    &__text {
+        font-size: 2rem;
+        color: black;
+    }
+}
+
+.left {
+    margin-left: 40px;
 }
