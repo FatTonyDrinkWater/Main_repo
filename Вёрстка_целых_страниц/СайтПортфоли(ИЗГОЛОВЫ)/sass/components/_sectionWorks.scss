@@ -1,13 +1,18 @@
 .work {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 2rem;
+
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+
+    }
 
     &__column {
         display: flex;
         flex-direction: column;
-        align-self: center;
         justify-content: center;
+        align-items: center;
     }
 
     &__subtitle {
@@ -18,7 +23,10 @@
 
     &__item {
         position: relative;
-        margin-bottom: 2rem;
+
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+        }
     }
 
     &__img {

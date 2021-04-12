@@ -1,0 +1,46 @@
+.heading-primary {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 700;
+
+
+    &--hi {
+        display: block;
+        animation: moveInRight 1s ease-out;
+
+
+    }
+
+    &--myName {
+        display: block;
+        animation: moveInRight2 1s ease-out;
+
+    }
+    &--webDev {
+        display: block;
+        animation: moveInRight3 1s ease-out;
+
+    }
+}
+
+
+
+
+
+
+.heading-secondary {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 2rem;
+
+}
+
+
+.heading-tertiary {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}

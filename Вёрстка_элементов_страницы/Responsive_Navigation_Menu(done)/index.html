@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="menuToggle" onclick="ToggleMenu()"></div>
+    <div class="navigation">
+      <div class="navArea">
+        <ul>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img1.jpg')">Home</a>
+          </li>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img2.jpg')">About</a>
+          </li>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img3.jpg')"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img4.jpg')"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img5.jpg')">Team</a>
+          </li>
+          <li>
+            <a href="#" onmouseenter="changeImage('images/img6.jpg')"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="imgArea">
+        <img src="images/img1.jpg" id="slider" alt="" />
+      </div>
+    </div>
+    <script>
+      function changeImage(link) {
+        document.getElementById("slider").src = link;
+      }
+
+      function ToggleMenu() {
+        const menuToggle = document.querySelector(".menuToggle");
+        const navigation = document.querySelector(".navigation");
+
+        menuToggle.classList.toggle("active");
+        navigation.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

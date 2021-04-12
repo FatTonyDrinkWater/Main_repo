@@ -3,132 +3,216 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/icon-font.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script src="app.js"></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item"><a class="navigation__link" href="#">Интро</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#">Обо мне</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#">Портфоли</a></li>
+        <li class="navigation__item"><a class="navigation__link" href="#">Контакты</a></li>
+      </ul>
+      
+
+    </div>
+    <!-- WELCOME START -->
     <header class="header">
-      <div class="wrapper">
+      <div class="u-wrapper">
+        <div class="content">
+          <div class="content__photo">
+          </div>
+          <div class="content__welcome">
+            <div class="content__mail u-margin-bottom-big">mail me: jonn.pomor@gmail.com</div>
+           <div class="heading-primary u-margin-bottom-big">
+            <span class="heading-primary--hi">Привет,</span>
+            <span class="heading-primary--myName">Я Женя</span>
+            <span class="heading-primary--webDev">Веб-разработчик</span>
+
+           </div>
+            <p class="content__text u-margin-bottom-big">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt officiis atque facilis incidunt exercitationem debitis, ea accusamus impedit mollitia porro odio quia asperiores voluptate cupiditate animi ab deleniti ut voluptatem.</p>
+            <a class="btn u-margin-bottom-big" href="#">Портфолио</a>
+            <a class="btn" href="#">Портфолио</a>
+          </div>
+        </div>
+
+      </div>
+    </header>
+    <!-- WELCOME END -->
+    <!-- <header class="header">
+      <div class="u-wrapper">
         <nav class="nav">
-          <div class="nav__logo">Kitsch || Die</div>
+          <div class="logo-group">
+            <div class="logo-group__text">Kitsch || Die</div>
+            <img class="logo-group__img" src="/img/GitHub-Logo.wine.svg" alt="">
+          </div>
           <div class="nav__menu">
             <ul class="nav__list">
               <li class="nav__item">
-                <a class="nav__link" href="">Главная</a>
+                <a class="nav__link" href="#">Главная</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="">Обо мне</a>
-              </li>
-              <li class="nav__item"><a class="nav__link" href="">Навыки</a></li>
-              <li class="nav__item">
-                <a class="nav__link" href="">Работы</a>
+                <a class="nav__link nav__link--active" href="#">Обо мне</a>
               </li>
               <li class="nav__item">
-                <a class="nav__link" href="">Контакты</a>
+                <a class="nav__link" href="#">Навыки</a></li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Работы</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="#">Контакты</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
-    <section class="intro">
-      <div class="wrapper">
-        <div class="intro__welcome">
-          Привет, <br>
-          Я <span class="textBlue">Женя</span> <br />
-          И я веб-разработчик
-          <a class="intro__link" href="#">Познакомиться</a>
+    <section class="section-welcome">
+      <div class="u-wrapper">
+        <div class="intro">
+          <div class="intro__text">
+            Привет! <br>
+            Меня зовут Женя, <br>
+            и я веб-разработчик
+          </div>
+          <a class="btn" href="#">Познакомиться</a>
         </div>
       </div>
+    </section> -->
+    <section class="section-about">
+      <div class="u-wrapper">
+        <h2 class="heading-secondary">Немного обо мне</h2>
+        <div class="description">
+          <div class="description__bio">
+            <p>
+              let WebDeveloper = {<br>
+                name: 'Евгений Бакаев', <br>
+                Возраст: 27 лет,<br>
+                location: Калининград,<br>
+                опыт: в следующей секции вы можете посмотреть примеры некоторых моих работ<br>
+              }
+            </p>
+          </div>
+          <div class="description__technology">
+            <img class="description__img" src="img/CSS3_and_HTML5_logos_and_wordmarks.svg" alt="css3">
+            <!-- <img class="description__img" src="img/html5.svg" alt="html5">
+            <img class="description__img" src="img/css3.svg" alt="css">
+            <img class="description__img" src="img/css3.svg" alt="css"> -->
+          </div>
+        </div>
+      </div>  
     </section>
-    <div class="wrapper">
-      <section class="description">
-        <div>
-          <p class="description__text">
-           let WebDeveloper = { <br>
-             <p class="left">name: 'Евгений Бакаев', <br>
-             age: 27,<br>
-             location: Калининград,<br>
-             опыт: в следующей секции вы можете посмотреть примеры некоторых моих работ<br>
-           }</p>
-          </p>
-        </div>
-        <div>
-          здесь будут технологии картинками
-        </div>
-    </div>
-   
+  <!-- РАБОТЫ -->
     </section>
-    <div class="wrapper">
-      <div class="section__title">Работы</div>
-      <section class="work">
-        <div class="work__column">
-          <h2 class="work__subtitle">Игры</h2>
-          <div class="work__item">
-            <!-- ВИСЕЛЬНИК -->
-            <a href="PortFolio/HangMan/index.html">
-              <img class="work__img" src="img/HangMan.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
+    <section class="section-work">
+      <div class="u-wrapper">
+        <div class="heading-secondary"> Мои  работы</div>
+        <div class="work__row">
+          <div class="work__column">
+            <h3 class="heading-tertiary">Игры</h3>
+            <div class="work__item">
+              <!-- ВИСЕЛЬНИК -->
+              <a href="PortFolio/HangMan/index.html">
+                <img class="work__img" src="img/HangMan.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <!-- УГАДАЙ ЧИСЛО -->
+              <a href="PortFolio/guessnymber/index.html">
+                <img class="work__img" src="img/GuessNumber.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <!-- пигги гейм -->
+              <a href="PortFolio/piggygame/index.html">
+                <img class="work__img" src="img/piggyGame.png" alt="" />
+              </a>
+            </div>
           </div>
-          <div class="work__item">
-            <!-- УГАДАЙ ЧИСЛО -->
-            <a href="PortFolio/guessnymber/index.html">
-              <img class="work__img" src="img/GuessNumber.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
+          <div class="work__column">
+            <h3 class="heading-tertiary">Пэт-проекты</h3>
+            <div class="work__item">
+            <!-- БукингСитЭпп -->
+              <a href="PortFolio/MovieSeatBookingAPP/index.html">
+                <img class="work__img" src="img/BookSeat.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <!-- Обменный курс валют -->
+              <a href="PortFolio/Exchange/index.html">
+                <img class="work__img" src="img/Exchange.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <!-- Подсчет коммуналки -->
+              <a href="PortFolio/ZKH/index.html">
+                <img class="work__img" src="img/zkh.png" alt="" />
+              </a>
+            </div>
           </div>
-          <div class="work__item">
-            <!-- пигги гейм -->
-            <a href="PortFolio/piggygame/index.html">
-              <img class="work__img" src="img/piggyGame.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
+          <div class="work__column">
+            <h3 class="heading-tertiary">Вёрстка</h3>
+            <div class="work__item">
+              <a href="PortFolio/HangMan/index.html">
+                <img class="work__img" src="img/HangMan.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="PortFolio/HangMan/index.html">
+                <img class="work__img" src="img/HangMan.png" alt="" />
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="PortFolio/HangMan/index.html">
+                <img class="work__img" src="img/HangMan.png" alt="" />
+              </a>
+            </div>
           </div>
         </div>
-        <div class="work__column">
-          <h2 class="work__subtitle">Пэт-проекты</h2>
-          <div class="work__item">
-          <!-- БукингСитЭпп -->
-            <a href="PortFolio/MovieSeatBookingAPP/index.html">
-              <img class="work__img" src="img/BookSeat.png" alt="" />
-            </a>
-            <p class="work__about"><span>Краткое описание проекта</span></p>
-          </div>
-          <div class="work__item">
-            <!-- Обменный курс валют -->
-            <a href="PortFolio/Exchange/index.html">
-              <img class="work__img" src="img/Exchange.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
-          </div>
-          <div class="work__item">
-            <!-- Подсчет коммуналки -->
-            <a href="PortFolio/ZKH/index.html">
-              <img class="work__img" src="img/zkh.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
-          </div>
-        </div>
-        <div class="work__column">
-          <h2 class="work__subtitle">Вёрстка</h2>
-          <div class="work__item">
-            <a href="PortFolio/HangMan/index.html">
-              <img class="work__img" src="img/HangMan.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
-          </div>
-          <div class="work__item">
-            <a href="PortFolio/HangMan/index.html">
-              <img class="work__img" src="img/HangMan.png" alt="" />
-            </a>
-            <p class="work__about">Text</p>
-          </div>
-        </div>
+      </div>
       </section>
-    </div>
-    <section class="contacts">
-      <form action=""></form>
-    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="u-wrapper">
+        <div class="footer__content">
+          <div class="contacts">
+            <h3 class="heading-tertiary u-margin-bottom-small">Связаться со мной:</h3>
+            <ul class="contacts__list">
+              <li class="contacts__item">
+                <i class="contacts__icon icon-basic-compass"></i>
+                <div class="contacts__link">Я живу в Калининграде</div>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon icon-basic-mail"></i>
+                <div class="contacts__link">jonn.pomor@gmail.com</div>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon icon-basic-tablet"></i>
+                <div class="contacts__link">8-(900)-561-79-28</div>
+              </li>
+              <li class="contacts__item">
+                <i class="contacts__icon icon-basic-paperplane"></i>
+                <div class="contacts__link">@bateman63</div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__follow">
+            <h3 class="heading-tertiary u-margin-bottom-small">Подписаться</h3>
+            <p>Это может быть интересным. Здесь какой-то текст, про мои соц сети</p>
+            <div class="follow">
+              <img class="follow__svg" src="/img/GitHub-Logo.wine.svg" alt="">
+              <img class="follow__svg" src="/img/vk.svg" alt="">
+              <img class="follow__svg" src="/img/instagram.svg" alt="">
+            </div>
+
+
+          </div>
+      </div>
+
+    </footer>
   </body>
 </html>

@@ -1,32 +1,29 @@
-.nav {
-    height: 7rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    &__logo {
-        font-size: 4rem;
-        font-weight: bold;
-    }
+.navigation {
+    width: 100vh;
+    height: 4.5rem;
+    position: fixed;
+    background: blue;
+    // transform: rotate(-90deg) translateX(-100%);
+    // transform-origin: left top;
+    font-size: 1.6rem;
+    padding-right: 5rem;
 
     &__list {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        align-items: center;
+        padding: 1rem;
     }
 
     &__item {
-        margin-left: 3.5rem;
+        margin-right: 20px;
+        height: 100%;
+        
     }
-
     &__link {
-        font-weight: 700;
-        color: black;
-        font-size: medium;
-
         &:hover {
             color: white;
         }
+        
     }
 }

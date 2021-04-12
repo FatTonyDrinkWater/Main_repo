@@ -1,29 +1,9 @@
 .intro {
-    background: url(/img/cheng-feng-j7AMlh2MMHc-unsplash.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 90vh;
-    border: 1px solid black;
 
-    &__welcome {
-        position: relative;
-        font-size: 3rem;
+    &__text {
+        font-size: 2rem;
         color: white;
-        margin-top: 10rem;
     }
 
-    &__link {
-        margin-top: 2rem;
-        background-color: black;
-        color: white;
-        padding: 1rem;
-        border-radius: 10rem;
-        position: absolute;
-        top: 10rem;
-        left: -1.3rem;
-    }
-}
 
-.textBlue {
-    color: blue;
 }

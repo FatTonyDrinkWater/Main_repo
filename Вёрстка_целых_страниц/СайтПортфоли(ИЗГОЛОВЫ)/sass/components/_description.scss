@@ -1,14 +1,29 @@
 .description {
     display: flex;
-    justify-content: space-between;
-    color: red;
+    justify-content: center;
+    flex-wrap: wrap;
 
-    &__text {
+    &__bio {
+        padding: 1rem;
+        width: 50%;
+        border: 1px solid black;
+        text-align: left;
+    }
+
+    &__title {
         font-size: 2rem;
+
         color: black;
     }
-}
 
-.left {
-    margin-left: 40px;
+    &__technology {
+        padding: 1rem;
+        width: 50%;
+        border: 1px solid black;
+    }
+
+    &__img {
+        width: 450px;
+        height: 250px;
+    }
 }

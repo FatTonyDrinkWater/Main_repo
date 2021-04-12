@@ -1,0 +1,17 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        padding: 1rem 1rem 1rem 0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: $default-font-size;
+        color: black;
+        transition:  .5s;
+        border-left: 2px solid blue;
+
+    }
+    &:hover {
+        
+    }
+}
